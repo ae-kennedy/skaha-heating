@@ -1,16 +1,17 @@
 # Skaha Heating & Air Ltd. — Website
 
-Single-page static website for [SkahahHeating.com](https://skahaheating.com).
+Single-page static website for [skahaheating.com](https://skahaheating.com).
 
-## Add images
+## Images
 
-Create an `images/` folder in the repo root and add these three files:
+All images live in the `images/` folder. Current files:
 
-| File | Use | Source |
+| File | Used in | Notes |
 |---|---|---|
-| `images/logo.png` | Header (on white background) | Horizontal logo, white/transparent bg |
-| `images/logo-white.png` | Footer (on dark background) | Horizontal logo with white text |
-| `images/van.jpg` | Hero background + About section | Photo of Steve in the service van |
+| `images/logo-white.png` | Header | Horizontal logo with white text, used on navy background |
+| `images/logo.png` | Footer | Horizontal logo with black/dark background, used on black footer |
+| `images/van.jpg` | Hero section background | Photo of the Skaha Heating service van |
+| `images/steve_photo.jpg` | About section | Headshot of Steve Martel, owner |
 
 The site degrades gracefully without images — the hero shows a solid navy gradient fallback and logo areas remain blank.
 
